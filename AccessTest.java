@@ -1,0 +1,1 @@
+package outside; import demo.AccessDemo; public class AccessTest extends AccessDemo { public static void main(String[] args){ AccessTest x=new AccessTest(); System.out.println(x.publicText); System.out.println(x.protectedText); /* x.defaultText and x.privateText are not accessible here. */ x.showAll(); } }

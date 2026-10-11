@@ -1,0 +1,1 @@
+package demo; public class AccessDemo { public String publicText="public"; protected String protectedText="protected"; String defaultText="default"; private String privateText="private"; public void showAll(){System.out.println(publicText+", "+protectedText+", "+defaultText+", "+privateText);} }

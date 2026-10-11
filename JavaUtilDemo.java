@@ -1,0 +1,1 @@
+import java.util.ArrayList; import java.util.Scanner; public class JavaUtilDemo { public static void main(String[] args){ ArrayList<String> names=new ArrayList<>(); try(Scanner sc=new Scanner(System.in)){ for(int i=0;i<3;i++){System.out.print("Enter name: ");names.add(sc.nextLine());} } System.out.println("Names: "+names); } }

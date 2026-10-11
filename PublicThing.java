@@ -1,0 +1,1 @@
+package testpack; public class PublicThing { public void show(){System.out.println("PublicThing is accessible outside its package.");} } class PackagePrivateThing { void show(){System.out.println("PackagePrivateThing is package-private.");} }

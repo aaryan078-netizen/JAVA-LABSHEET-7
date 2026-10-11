@@ -1,0 +1,1 @@
+import testpack.PublicThing; public class AccessMain { public static void main(String[] args){ new PublicThing().show(); /* testpack.PackagePrivateThing cannot be accessed here: it is not public. */ System.out.println("A package-private class cannot be used from another package."); } }
